@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="intro">
+        <h1 class="heavy-3">Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.x
+        </p>
+      </div>
+      <div class="form-container">
+        <p class="free-claim">
+          <span class="heavy-3">Try it free 7 days</span> then $20/mo.
+          thereafter
+        </p>
+        <form action="" class="form heavy-2">
+          <div>
+            <input
+              type="text"
+              placeholder="First Name"
+              class="heavy-2"
+              id="FirstName"
+            />
+            <p class="heavy-1 error_message">First Name can not be empty</p>
+            <img
+              src="./images/icon-error.svg"
+              alt="error icon"
+              class="error-icon"
+              id="error-icon-1"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Last Name"
+              class="heavy-2"
+              id="LastName"
+            />
+            <p class="heavy-1 error_message">Last Name can not be empty</p>
+            <img
+              src="./images/icon-error.svg"
+              alt="error icon"
+              class="error-icon"
+              id="error-icon-2"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name=""
+              id="Email"
+              placeholder="Email Address"
+              class="heavy-2"
+            />
+            <p class="heavy-1 error_message">Email Address can not be empty</p>
+            <img
+              src="./images/icon-error.svg"
+              alt="error icon"
+              class="error-icon"
+              id="error-icon-3"
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              placeholder="password"
+              class="heavy-2"
+              id="password"
+            />
+            <p class="heavy-1 error_message">Password can not be empty</p>
+            <img
+              src="./images/icon-error.svg"
+              alt="error icon"
+              class="error-icon"
+              id="error-icon-4"
+            />
+          </div>
+          <button type="submit" class="btn heavy-3 =" id="submit-btn">
+            CLAIM YOUR FREE TRIAL
+          </button>
+          <p class="heavy-0 form__terms">
+            By clicking the button, you are agreeing to our
+            <a href="" class="heavy-3">Terms and Services</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
